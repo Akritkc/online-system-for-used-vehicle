@@ -1,0 +1,144 @@
+shop {
+	position: relative;
+	display: block;
+	margin: auto;
+	background-image: url("./images/car.jpg");
+	background-repeat: no-repeat no-repeat;
+	background-size: 125% 100%;
+}
+
+logo {
+	background-image: url("./images/garagelogo.jpg");
+	display: block;
+	top: 0px;
+	position: absolute;
+	background-size: 155px 115px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	margin-left: 5em;
+}
+
+shop_detail {
+	height: 10%;
+	width: 100%;
+	background-color: #FF0000;
+	display: block;
+	color: whitesmoke;
+	border-bottom: #696969 4px solid;
+	top: 20%;
+	left: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+shop_detail name,
+address,
+telephone,
+website {
+	display: inline-block;
+	font-size: medium;
+	font-family: monospace;
+	font-weight: lighter;
+	text-shadow: #8c2e26 2px 2px;
+	padding: 5px;
+	margin-left: 80%;
+}
+
+cars {
+	height: 80%;
+	width: 90%;
+	display: block;
+	margin: auto;
+
+	font-size: medium;
+	font-weight: bold;
+}
+
+car * {
+	display: list-item;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-size: medium;
+}
+
+car name {
+	font-size: 40px;
+	display: block;
+	text-decoration-line: underline;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+sportscars::before {
+	font-size: 50px;
+	font-style: italic;
+	text-shadow: black 5px 0px 5px;
+	margin-bottom: 5px;
+	color: #800000;
+	display: block;
+	text-align: center;
+	content: "SPORTS CAR";
+}
+
+suvs::before {
+	font-size: 50px;
+	font-style: italic;
+	text-shadow: black 5px 0px 5px;
+	margin-bottom: 5px;
+	color: #800000;
+	display: block;
+	text-align: center;
+	content: "SUV";
+}
+
+coupes::before {
+	font-size: 50px;
+	font-style: italic;
+	text-shadow: black 5px 0px 5px;
+	margin-bottom: 5px;
+	color: #800000;
+	display: block;
+	text-align: center;
+	content: "Coupe";
+}
+
+musclecars:before {
+	font-size: 50px;
+	font-style: italic;
+	text-shadow: black 5px 0px 5px;
+	margin-bottom: 5px;
+	color: #800000;
+	display: block;
+	text-align: center;
+	content: "MUSCLE CAR";
+}
+
+sportscars,
+coupes, 
+suvs,
+musclecars {
+	position: relative;
+	display: block;
+	padding: 20px;
+	margin-top: 4em;
+	margin-bottom: 4em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .2);
+	box-shadow: 2em 2em 20px;
+	
+}
+
+car {
+	position: relative;
+	display: inline-block;
+	margin: 1em 3em;
+	margin-top: 2px;
+	vertical-align: top;
+}
+
+promotion {
+	background-color: #FFDF00;
+}

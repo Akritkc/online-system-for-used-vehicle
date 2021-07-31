@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="catalog_18029993.css" ?>
+<!-- Akrit K.C 18029993 -->
+
+<shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_18029993.xsd">
+    <shop_detail>
+        <name>Car Service Garage</name>
+        <address>718 Brooklyn, Newyork</address>
+        <telephone>982 1888 1999</telephone>
+        <website>http://www.CarServiceGarage.com</website>
+        <logo />
+    </shop_detail>
+    <cars>
+        <sportscars catId="CAT1">
+            <car id="SC1">
+                <name>Boxster 718 Spyder </name>
+                <brand>Porsche</brand>
+                <description>The S stands for speed</description>
+                <quantity>3</quantity>
+                <price>$96,300</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Porsche motors</manufacturer>
+                    <color>White</color>
+                    <dimension>71x174x49</dimension>
+                    <make_year>2020</make_year>
+                    <horsepower>414HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="SC2">
+                <name>2020 Corvette</name>
+                <brand>Chevrolet</brand>
+                <description>Precision is our starting line</description>
+                <quantity>2</quantity>
+                <price>$78,345</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Chevrolet</manufacturer>
+                    <color>Blue</color>
+                    <dimension>80x250x170</dimension>
+                    <make_year>2020</make_year>
+                    <horsepower>495HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="SC3">
+                <name>Vanquish S</name>
+                <brand>Aston Martin</brand>
+                <description>A MASTERFUL BLEND OF ART AND TECHNOLOGY</description>
+                <quantity>1</quantity>
+                <price>$199,950</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Aston Martin</manufacturer>
+                    <color>grey</color>
+                    <dimension>80x250x170</dimension>
+                    <make_year>2018</make_year>
+                    <horsepower>595HP</horsepower>
+                </specifications>
+            </car>
+        </sportscars>
+
+        <suvs catId="CAT2">
+            <car id="C1">
+                <name>X3</name>
+                <brand>BMW</brand>
+                <description> for those who hear adventure’s call.</description>
+                <quantity>5</quantity>
+                <price>$41,000</price>
+                <promotion>Special offer</promotion>
+                <specifications>
+                    <type>Hybrid</type>
+                    <manufacturer>BMW</manufacturer>
+                    <color>Black</color>
+                    <dimension>112x185x66</dimension>
+                    <make_year>2020</make_year>
+                    <horsepower>503HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="C2">
+                <name>e-tron</name>
+                <brand>Audi</brand>
+                <description>Electric has gone Audi</description>
+                <quantity>6</quantity>
+                <price>$43,000</price>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Electric</type>
+                    <manufacturer>Audi</manufacturer>
+                    <color>White</color>
+                    <dimension>66x193x76</dimension>
+                    <make_year>2019</make_year>
+                    <horsepower>402HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="C3">
+                <name>XC60</name>
+                <brand>Volvo</brand>
+                <description>Own the road. Share the planet.</description>
+                <quantity>7</quantity>
+                <price>$40,000</price>
+                <specifications>
+                    <type>Hybrid</type>
+                    <manufacturer>Volvo</manufacturer>
+                    <color>Grey</color>
+                    <dimension>112x184x65</dimension>
+                    <make_year>2020</make_year>
+                    <horsepower>400HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="C4">
+                <name>F-Pace</name>
+                <brand>Jaguar</brand>
+                <description>Fierece like a jaguar</description>
+                <quantity>2</quantity>
+                <price>$45,000</price>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Jaguar motors</manufacturer>
+                    <color>White</color>
+                    <dimension>113x186x65</dimension>
+                    <make_year>2020</make_year>
+                    <horsepower>550HP</horsepower>
+                </specifications>
+            </car>
+        </suvs>
+
+        <coupes catId="CAT3">
+            <car id="S1">
+                <name>Civic</name>
+                <brand>Honda</brand>
+                <description>Sporty, Sophisticated, So much fun</description>
+                <quantity>2</quantity>
+                <price>$22,000</price>
+                <promotion>Special offer</promotion>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Honda</manufacturer>
+                    <color>black</color>
+                    <dimension>4518x1799x1434</dimension>
+                    <make_year>2020</make_year>
+                    <horsepower>174HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="S2">
+                <name>A5</name>
+                <brand>Audi</brand>
+                <description>The future's classic</description>
+                <quantity>2</quantity>
+                <price>$38,000</price>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Audi</manufacturer>
+                    <color>red</color>
+                    <dimension>252x460x326</dimension>
+                    <make_year>2019</make_year>
+                    <horsepower>252HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="S3">
+                <name>DB11</name>
+                <brand>Aston Martin</brand>
+                <description>the most powerful and efficient ‘DB’ production model in Aston Martin’s history.</description>
+                <quantity>3</quantity>
+                <price>$234,000</price>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Aston Martin</manufacturer>
+                    <color>Black</color>
+                    <dimension>186x81x50</dimension>
+                    <make_year>2019</make_year>
+                    <horsepower>503HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="S4">
+                <name>Camaro</name>
+                <brand>Chevrolet</brand>
+                <description>The legend continues</description>
+                <quantity>1</quantity>
+                <price>$30,000</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Chevrolet</manufacturer>
+                    <color>Red</color>
+                    <dimension>188x75x54</dimension>
+                    <make_year>2020</make_year>
+                    <horsepower>650HP</horsepower>
+                </specifications>
+            </car>
+
+        </coupes>
+
+        <musclecars catId="CAT4">
+            <car id="M1">
+                <name>Bullit</name>
+                <brand>Mustang</brand>
+                <description>This special-edition Mustang delivers tire-smoking performance </description>
+                <quantity>3</quantity>
+                <price>$48,000</price>
+                <promotion>Special offer</promotion>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Ford</manufacturer>
+                    <color>black</color>
+                    <dimension>152x265x226</dimension>
+                    <make_year>2019</make_year>
+                    <horsepower>480HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M2">
+                <name>Challenger SXT</name>
+                <brand>Dodge</brand>
+                <description>the thrilling performance of a sports car with the some of the practicality of a daily driver.</description>
+                <quantity>1</quantity>
+                <price>$46,000</price>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Dodge</manufacturer>
+                    <color>Red</color>
+                    <dimension>352x662x126</dimension>
+                    <make_year>2017</make_year>
+                    <horsepower>400HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M3">
+                <name>AMX3</name>
+                <brand>AMC</brand>
+                <description>Awesome car</description>
+                <quantity>4</quantity>
+                <price>$55,000</price>
+                <promotion>Vintage offer</promotion>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Shelby</manufacturer>
+                    <color>Red</color>
+                    <dimension>155x302x175</dimension>
+                    <make_year>1957</make_year>
+                    <horsepower>200HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M4">
+                <name>Camaro SS</name>
+                <brand>Chevrolet</brand>
+                <description>Quick and Funky</description>
+                <quantity>2</quantity>
+                <price>$21,000</price>
+                <promotion>Special offer</promotion>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Chevrolet</manufacturer>
+                    <color>Black</color>
+                    <dimension>110x188x75</dimension>
+                    <make_year>2019</make_year>
+                    <horsepower>455HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M5">
+                <name>Bass 770</name>
+                <brand>Equss</brand>
+                <description>A hand built, raw piece of American muscle</description>
+                <quantity>3</quantity>
+                <price>$25,000</price>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Equss</manufacturer>
+                    <color>Black</color>
+                    <dimension>200x300x175</dimension>
+                    <make_year>2015</make_year>
+                    <horsepower>640HP</horsepower>
+                </specifications>
+            </car>
+        </musclecars>
+    </cars>
+</shop>
